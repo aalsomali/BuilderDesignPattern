@@ -5,7 +5,9 @@ public class BuilderPatternDemo {
         Scanner in = new Scanner (System.in);
         
         Meal vegCokeMeal = mealBuilder.prepareVegCokeMeal();
+        
         Meal vegPepsiMeal = mealBuilder.prepareVegPepsiMeal();
+        
         Meal chickenCokeMeal = mealBuilder.prepareChickenCokeMeal();
         Meal chickenPepsiMeal = mealBuilder.prepareChickenPepsiMeal();
         System.out.println("Welcome to Meal Builder!\n\nPlease Choose Your Burger:\n"
