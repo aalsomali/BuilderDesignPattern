@@ -10,9 +10,11 @@ public class BuilderPatternDemo {
         System.out.println("Welcome to Meal Builder!\n\nPlease Choose Your Burger:\n"
                 + "\t1- Veggie Burger\n\t2- Chicken Burger\n");
         int burger = in.nextInt();
+        
         System.out.println("Please Choose Your Drink:\n"
                 + "\t1- Coke\n\t2- Pepsi");
         int drink = in.nextInt();
+        
         switch (burger) {
             case 1:
                 switch (drink) {
