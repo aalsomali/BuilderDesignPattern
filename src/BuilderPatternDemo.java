@@ -3,6 +3,7 @@ public class BuilderPatternDemo {
     public static void main(String[] args){
         MealBuilder mealBuilder = new MealBuilder();
         Scanner in = new Scanner (System.in);
+        
         Meal vegCokeMeal = mealBuilder.prepareVegCokeMeal();
         Meal vegPepsiMeal = mealBuilder.prepareVegPepsiMeal();
         Meal chickenCokeMeal = mealBuilder.prepareChickenCokeMeal();
