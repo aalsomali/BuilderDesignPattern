@@ -9,7 +9,9 @@ public class BuilderPatternDemo {
         Meal vegPepsiMeal = mealBuilder.prepareVegPepsiMeal();
         
         Meal chickenCokeMeal = mealBuilder.prepareChickenCokeMeal();
+        
         Meal chickenPepsiMeal = mealBuilder.prepareChickenPepsiMeal();
+        
         System.out.println("Welcome to Meal Builder!\n\nPlease Choose Your Burger:\n"
                 + "\t1- Veggie Burger\n\t2- Chicken Burger\n");
         int burger = in.nextInt();
